@@ -1,93 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marwadi University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marwadi University</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" />
-</head>
-
-<body>
-  <section class="header">
-    <nav>
-      <a href="index.html"><img src="images/logo.png" /></a>
-      <div class="nav-links" id="navLinks">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
-        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">COURSE</a></li>
-          <li><a href="">BLOG</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>India's Best Recognized University</h1>
+        <p>
+          Marwadi University is a leading institution in Gujarat, offering
+          world-class education in engineering, management, science, and
+          more.<br />
+          It fosters innovation, research, and holistic growth for students to
+          excel globally.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
       </div>
-      <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
-    <div class="text-box">
-      <h1>India's Best Recognized University</h1>
-      <p>
-        Marwadi University is a leading institution in Gujarat, offering
-        world-class education in engineering, management, science, and
-        more.<br />
-        It fosters innovation, research, and holistic growth for students to
-        excel globally.
-      </p>
-      <a href="" class="hero-btn">Visit Us To Know More</a>
-    </div>
-  </section>
-  <!-- ----Course---- -->
-  <section class="course">
-  <h1>Courses We Offer</h1>
-  <p>
-    Marwadi University offers a wide range of programs in Engineering,
-    Management, Science, Law, and Design. With industry-focused curriculum
-    and hands-on learning, our courses prepare students for global careers.
-  </p>
-
-  <div class="row">
-    <div class="course-col">
-      <h3>Intermediate</h3>
+    </section>
+    <!-- ----Course---- -->
+    <section class="course">
+      <h1>Courses We Offer</h1>
       <p>
         Marwadi University offers a wide range of programs in Engineering,
-        Management, Science, Law, and Design.
+        Management, Science, Law, and Design. With industry-focused curriculum
+        and hands-on learning, our courses prepare students for global careers.
       </p>
-    </div>
 
-    <div class="course-col">
-      <h3>Degree</h3>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Marwadi University offers a wide range of programs in Engineering,
+            Management, Science, Law, and Design.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Marwadi University offers a wide range of programs in Engineering,
+            Management, Science, Law, and Design.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Marwadi University offers a wide range of programs in Engineering,
+            Management, Science, Law, and Design.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ----Campus---- -->
+
+    <section class="campus">
+      <h1>Our Campus</h1>
       <p>
-        Marwadi University offers a wide range of programs in Engineering,
-        Management, Science, Law, and Design.
+        Marwadi University is a vibrant campus that blends learning, innovation,
+        and community.
       </p>
-    </div>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/marwadi-main.jpeg" />
+          <div class="layer">
+            <h3>MAIN BUIDLING</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/marwadi-pg.jpeg" />
+          <div class="layer">
+            <h3>PG BUILDING</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/marwadi-hosteld.jpg" />
+          <div class="layer">
+            <h3>HOSTELS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="course-col">
-      <h3>Post Graduation</h3>
+    <!-- ---Facilities--- -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
       <p>
-        Marwadi University offers a wide range of programs in Engineering,
-        Management, Science, Law, and Design.
+        Marwadi University is a vibrant campus that blends learning, innovation,
+        and community.
       </p>
-    </div>
-  </div>
-</section>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.jpg" />
+          <h3>World Class Library</h3>
+          <p>
+            Marwadi University is a vibrant campus that blends learning,
+            innovation, and community.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" />
+          <h3>Playground</h3>
+          <p>
+            Marwadi University is a vibrant campus that blends learning,
+            innovation, and community.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.jpg" />
+          <h3>Cafeteria</h3>
+          <p>
+            Marwadi University is a vibrant campus that blends learning,
+            innovation, and community.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- ---Testimonials--- -->
+    <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>
+        Marwadi University is a vibrant campus that blends learning, innovation,
+        and community.
+      </p>
+      <div class="row">
+        <div class="testimonials-col">
+          <img src="images/user1.jpg" />
+          <div>
+            <p>
+              Marwadi University is a vibrant campus that blends learning,
+              innovation, and community
+            </p>
+            <h3>Abhishek Kumar</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img src="images/user2.jpg" />
+          <div>
+            <p>
+              Marwadi University is a vibrant campus that blends learning,
+              innovation, and community
+            </p>
+            <h3>Shubham Chaubey</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- ----JavaScript for Toggle Menu----  -->
-  <script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu() {
-      navLinks.style.right = "0";
-    }
-    function hideMenu() {
-      navLinks.style.right = "-200px";
-    }
-  </script>
-</body>
+    <!-- ---Call To Action--- -->
 
+    <section class="cta">
+      <h1>
+        Enroll for our various Online Courses From Anywhere Around the World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- ----Footer---- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+        voluptatibus nihil iure obcaecati animi earum.<br />
+        Rem quam enim cum nemo nostrum alias quia eos quis natus consectetur, ex
+        veritatis sapiente.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+<p>
+  Made with 
+  <i class="fa-solid fa-heart" style="color: #fc0303;"></i> 
+  by 
+  <a class="bugOpsX" href="https://github.com/bugOpsX" target="_blank" rel="noopener noreferrer">Sumant</a>
+</p>
+</i></p>
+    </section>
+
+    <!-- ----JavaScript for Toggle Menu----  -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>
